@@ -13,27 +13,11 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement-bar-0"
-      ],
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-755f67f1-723b-4bc0-aff1-a1425cc64a44",
-        "show_line_separator": false,
         "show_social": true,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": true,
-        "enable_language_selector": true
+        "text": "Free shipping on orders over $250"
       }
     },
     "header": {
