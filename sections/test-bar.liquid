@@ -1,0 +1,29 @@
+{% schema %}
+{
+  "name": "Custom Component",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "heading",
+      "default": "Welcome to my custom component"
+    },
+    {
+      "type": "textarea",
+      "label": "Description",
+      "id": "description",
+      "default": "This is a description for the custom component."
+    }
+  ], 
+  "presets": [
+    {
+      "name": "Custom Component",
+    }
+  ],
+}
+{% endschema %}
+
+<div class="custom-component">
+  <h2>{{ section.settings.heading }}</h2>
+  <p>{{ section.settings.description }}</p>
+</div>
